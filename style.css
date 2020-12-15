@@ -1,0 +1,89 @@
+body{
+    display: block;
+    margin-left: 30px;
+
+}
+
+nav ul{
+    width: 90%;
+    margin: auto;
+    background-color: #777;
+}
+
+nav.top-menu {
+    background-color: gray;
+    position: sticky;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+nav.top-menu ul{
+    padding: 0;
+}
+nav.top-menu li{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+}
+nav.top-menu a{
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+    transition: background-color 1s, top 2s;
+    position: relative;
+    top:0;
+}
+nav.top-menu a:hover{
+    background-color: #aaa;
+    transition: background-color 0.3s, top 2s;
+    position: relative;
+    top:10px;
+
+}
+li .sub-menu{
+    display: none;
+}
+li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ff0000aa;
+    text-align: center;
+    width: 100%;
+}
+
+.content{
+    margin: 50px;
+}
+.content > div{
+    padding: 10px;
+}
+.nadpis{
+    margin: 10px;
+}
+td{
+    text-align: center;
+}
+p{
+    font-weight: bold;
+}
+.strava > p{
+    margin: 5px;
+}
+.kontakt{
+    bottom: 10px;
+    left: 50%;
+    right: 50%;
+}
+.fotogalerie{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+img{
+    margin: 10px;
+}
+
+
+
+
