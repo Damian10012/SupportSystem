@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="WorkSpace2">
+       
+            <label>Jmeno:</label><br>
+            <input type="text" name="Name" id="Name" ><br>
+            <label>Problém:</label><br>
+            <textarea type="text" name="problem" id="Problem" style="height: 50px; width: 200px" maxlength="1000"></textarea>  <br>
+            <label>Důležitost</label><br>
+            <select id="Imp"> 
+                <option value="">Select:</option>
+                <option value="Velká">Velká</option>
+                <option value="Střední">Střední</option>
+                <option value="Nízká">Nízká</option>
+            </select><br>
+            <!-- <input name="dulezitost" required type="text"id="Dulezitost"> <br> -->
+            <!-- ?<label>Stav:</label> <br> -->
+            <!-- <input type="radio" name="stav" onclick="RadioSelect(this);" value="Nové" checked required >Nové<br> -->
+            <!-- <input type="radio" name="stav" onclick="RadioSelect(this);" value="Ot" required >Otevřené <br> -->
+            <button onclick="FunctSend()">Submit</button>
+        
+   </div>
+<script>
+    /*function FunctSend(){
+        alert("ahojaaaaaaaaaaaa");
+
+        
+        var Name = document.getElementById("Name").value;
+        var Problem = document.getElementById("Problem").value;
+        
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("WorkSpace2").innerHTML = this.responseText;
+        }
+        };
+        xhttp.open("GET","Table.php", true);
+        xhttp.send();        
+    }
+    function Dulezitost(Imp){
+        if(Imp==""){
+            alert("Vyberte dulezitost");
+        }
+        else
+            var Importance = Imp;            
+        }*/
+</script>
+
+</body>
+</html>
