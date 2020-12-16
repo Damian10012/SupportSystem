@@ -31,10 +31,12 @@
                     return;
                 }
                 
-                var xhttp = new XMLHttpRequest();
-                
-               
-                
+                var PostData=`Name=${Name}&Problem=${Problem}&Imp=${Imp}`;
+                var request = new XMLHttpRequest();
+                request.open("post","WriteData.php");
+                request.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+                request.send(PostData);
+                /*
                 xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                 document.getElementById("WorkSpace").innerHTML = this.responseText;
@@ -42,7 +44,7 @@
                 };
                 xhttp.open("POST","table2.php", true);
                 xhttp.send(Name+Problem+Imp); 
-                
+                */
                 
             }       
              

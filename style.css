@@ -83,6 +83,11 @@ p{
 img{
     margin: 10px;
 }
+.bla{
+    display:grid;
+    grid-column-start: 1, 1;
+    grid-column-end: 1, 3;
+}
 
 
 
