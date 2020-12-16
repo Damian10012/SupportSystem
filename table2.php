@@ -20,7 +20,7 @@
 <?php
 $conn = mysqli_connect("sql4.webzdarma.cz:3306", "suppsystemkv6540","ptRl6qp7%5*tk.@7,3Wb","suppsystemkv6540");
 $sql = "SELECT ID,zamestnanec,datum,problem,reseni,dulezitost,stav FROM  wo";
-$result =$conn->query($sql);
+$result =mysqli_query($conn,$sql);
 $pocitadlo=0;
 if($result->num_rows>0) {
     while (($row = $result->fetch_assoc())&&$pocitadlo<=9 )
@@ -45,9 +45,3 @@ if($result->num_rows>0) {
 echo "</div>";
 echo"</table>";
 ?>
-
-
-
-
-
-
