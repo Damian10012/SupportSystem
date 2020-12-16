@@ -18,7 +18,7 @@ echo
    
 </tr>
 ";
-$conn = mysqli_connect("sql4.webzdarma.cz:3306", "helpdeskkval2958", "7IG5L*23)v0H3TE3U5^1", "helpdeskkval2958");
+$conn = mysqli_connect("sql4.webzdarma.cz:3306", "suppsystemkv6540","ptRl6qp7%5*tk.@7,3Wb","suppsystemkv6540");
 $sql = "SELECT ID,zamestnanec,datum,problem,reseni,dulezitost,stav FROM  wo";
 $result =$conn ->query($sql);
 $pocitadlo=0;
