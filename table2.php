@@ -1,5 +1,5 @@
 
-<div class="part1"></div>
+<!-- <div class="part1"></div>
 <div class="tabulka">
 <table border ="1" >
 
@@ -12,7 +12,7 @@
     <td> Důležitost </td>
     <td> Stav</td>
    
-</tr>
+</tr> -->
 
 <?php
 $conn = mysqli_connect("sql4.webzdarma.cz:3306", "suppsystemkv6540","ptRl6qp7%5*tk.@7,3Wb","suppsystemkv6540");
