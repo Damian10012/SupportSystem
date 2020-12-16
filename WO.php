@@ -91,6 +91,3 @@
     <script src="WOscript.js"></script>
 </body>
 </html>
-<?php
-echo "Pokus 1";
-?>
