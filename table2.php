@@ -1,11 +1,7 @@
-<?php
-echo
-"
-<div class='part1'></div>
-<div class='tabulka'>
- 
 
-<table border ='1' >
+<div class="part1"></div>
+<div class="tabulka">
+<table border ="1" >
 
     <td> ID </td>
     <td> Zaměstnanec </td>
@@ -17,7 +13,8 @@ echo
     <td> Stav</td>
    
 </tr>
-";
+
+<?php
 $conn = mysqli_connect("sql4.webzdarma.cz:3306", "suppsystemkv6540","ptRl6qp7%5*tk.@7,3Wb","suppsystemkv6540");
 $sql = "SELECT ID,zamestnanec,datum,problem,reseni,dulezitost,stav FROM  wo";
 $result =$conn ->query($sql);

@@ -40,7 +40,7 @@
                 document.getElementById("WorkSpace").innerHTML = this.responseText;
                 }
                 };
-                xhttp.open("POST","Table.php", true);
+                xhttp.open("POST","table2.php", true);
                 xhttp.send(Name+Problem+Imp); 
                 
                 
@@ -55,7 +55,7 @@
             document.getElementById("WorkSpace").innerHTML = this.responseText;
                 }
             };
-            xhttp.open("GET", "Table.php", true);
+            xhttp.open("GET", "table2.php", true);
             xhttp.send();
         
         }
